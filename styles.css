@@ -7,11 +7,8 @@ body {
     font-family: 'Poppins' , Times, serif;
 }
 
-
-
-
 header {
-    background-color: rgb(38, 60, 151);
+    background-color: #005C78;
     color: white;
     padding: 5px 0;
 }
@@ -64,6 +61,54 @@ header {
     z-index: 2;
     font-family:'Times New Roman';
 }
+
+/* Button */ 
+.hero button {
+    --color: #0077ff;
+    font-family: inherit;
+    display: inline-block;
+    width: 6em;
+    height: 2.6em;
+    line-height: 2.5em;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 17px;
+    z-index: 1;
+    color: var(--color);
+    border: 0.5px solid var(--color);
+    border-radius: 6px;
+    position: relative;
+  }
+  
+  .hero button::before {
+    position: absolute;
+    content: "";
+    background: var(--color);
+    width: 150px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+  }
+  
+  .hero button:hover {
+    color: white;
+  }
+  
+  .hero button:before {
+    top: 100%;
+    left: 100%;
+    transition: 0.3s all;
+  }
+  
+  .hero button:hover::before {
+    top: -30px;
+    left: -30px;
+  }
+
+  
+
+
 #about{
     padding: 10px;
     background-color: #f8f7f4f6;
