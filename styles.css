@@ -155,47 +155,22 @@ header {
     .hero h1{
         font-size: 3rem;
     }
-
-    #events img {
-        
-    }
 }
 
 
 
+/*Members*/
 
 #members {
-    padding: 40px 0;
-}
-
-#members h2 {
-    margin-bottom: 80px;
-}
-
-.card {
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.card-img-top {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    height: 200px;
-    object-fit: cover;
-}
-
-.card-title {
-    font-weight: bold;
-}
-
-.card-text {
-    color: #555;
+    margin-top: 13%;
+    box-shadow: #33333389 2px 15px 35px;
+    border-radius: 1.85rem;
 }
 
 
 
 
+/*Events*/
 #events {
     padding: 40px 0;
 }
@@ -212,45 +187,32 @@ header {
 
 
 
-
-
-
-
+/*FAQ*/
 #faq {
+    margin-top: 13%;
+}
+
+
+/*Assosiated Section*/
+#associated {
     padding: 40px 0;
 }
 
-#faq h2 {
+#associated h2 {
     margin-bottom: 80px;
 }
 
-.card {
-    border: 1px solid #a2cfff;
-    border-radius: 5px;
-    margin-bottom: 15px;
-}
-
-.card-header {
-    background-color: #aac5e2;
-    color: white;
-}
-
-.btn-link {
-    color: white;
-    text-decoration: none;
-}
-
-.btn-link:hover {
-    text-decoration: none;
-}
-
-.card-body {
-    background-color: #f8f9fa;
-}
 
 
 footer {
-    background-color: rgb(38, 60, 151);
+    background-color: #433D8B;
     color: white;
     padding: 20px 0;
+}
+footer p{
+    font-size: 22px;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
 }
