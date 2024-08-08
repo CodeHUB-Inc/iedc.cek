@@ -1,6 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
-    background-color: #f8f9fa;
+    background:url("/pattern-randomized.png");
     color: #333;
+    font-family: 'Poppins' , Times, serif;
 }
 
 header {
@@ -20,20 +24,22 @@ header {
 }
 
 .navbar-nav .nav-link:hover {
-    color: #ffcc00 !important;
+    color: #cccccc !important;
+    transition: all 0.3s ease;
 
 }
 
 .hero {
     position: relative;
     overflow: hidden;
-    color: white;
+    color: #FBFFF4;
     text-align: center;
-    height: 88vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 12%;
 }
 
 .hero::before {
@@ -53,13 +59,23 @@ header {
 .hero p {
     position: relative;
     z-index: 2;
+    font-family:'Times New Roman';
+}
+#about{
+    padding: 10px;
+    background-color: #f8f7f4f6;
+    box-shadow: #33333389 2px 15px 35px;
+    border-radius: 1.85rem;
+    color: #252525;
+}
+#about h2 {
+    margin: 60px 0 50px 50px;
 }
 
 .about-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    align-items: center;
 }
 
 .about-text {
@@ -76,6 +92,24 @@ header {
     height: auto;
 }
 
+@media only screen and (max-width:768px) {
+    #about{
+        margin: 0 30px 0 30px;
+    }
+    .about-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding:2px;
+    }
+    .about-text{
+        font-size: 1px;
+        text-align: inherit;
+        padding: 20px;
+    }
+    .hero h1{
+        font-size: 3rem;
+    }
+}
 
 
 
@@ -107,9 +141,6 @@ header {
 .card-text {
     color: #555;
 }
-
-
-
 
 
 
