@@ -101,10 +101,8 @@ header {
         grid-template-columns: 1fr;
         padding:2px;
     }
-    .about-text{
-        font-size: 1px;
-        text-align: inherit;
-        padding: 20px;
+    .about-text p{
+        font-size: 17px;
     }
     .hero h1{
         font-size: 3rem;
