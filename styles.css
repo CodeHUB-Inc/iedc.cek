@@ -183,6 +183,8 @@ header {
     width: 100%;
     height: auto;
     border-radius: 10px;
+    box-shadow: #33333389 2px 15px 35px;
+     
 }
 
 
@@ -190,6 +192,8 @@ header {
 /*FAQ*/
 #faq {
     margin-top: 13%;
+    border-radius: 1rem;
+    
 }
 
 
